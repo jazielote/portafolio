@@ -3,194 +3,156 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JazieLabs | Nelvin Jaziel Marquez — Full-Stack Developer</title>
-<meta name="description" content="JazieLabs — the studio behind Nelvin Jaziel Marquez, a Full-Stack Developer specializing in React, Next.js, PostgreSQL and REST APIs, with a background in Python, automation and computer vision.">
+<title>Nelvin Jaziel Marquez — JazieLabs</title>
+<meta name="description" content="Full-stack developer and technical lead. Building production systems, ERP/POS software, and automated workflows.">
 <link rel="canonical" href="https://jazielabs.online/">
 <link rel="alternate" hreflang="en" href="https://jazielabs.online/">
 <link rel="alternate" hreflang="es" href="https://jazielabs.online/es/">
-<meta name="theme-color" content="#0d1117">
-<meta property="og:title" content="Nelvin Jaziel Marquez — Full-Stack Developer">
-<meta property="og:description" content="Full-Stack Developer specializing in React, Next.js, PostgreSQL and REST APIs.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://jazielabs.online/">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#f4f4f0">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <div class="navbar">
-    <span class="brand">JazieLabs</span>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-      <a href="es/" class="lang-switch">ES</a>
-    </nav>
+  <!-- Ticker animado superior -->
+  <div class="ticker-wrap">
+    <div class="ticker-move">
+      <span class="ticker-item">frontend &bull; backend &bull; servidores &bull; automatización &bull; sistemas b2b &bull; bases de datos &bull;</span>
+      <span class="ticker-item">frontend &bull; backend &bull; servidores &bull; automatización &bull; sistemas b2b &bull; bases de datos &bull;</span>
+    </div>
   </div>
 
-  <header class="hero">
-    <h1>Nelvin Jaziel Marquez</h1>
-    <p class="subtitle">Full-Stack Developer | React, Next.js &amp; PostgreSQL</p>
-    <p class="brand-note">Building under the <strong>JazieLabs</strong> name</p>
-    <span class="pill">Available for remote &amp; freelance work</span>
+  <header class="site-header">
+    <a href="#" class="brand">Jazie<span>Labs</span></a>
+    <nav class="site-nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="es/" class="lang">ES</a>
+    </nav>
   </header>
 
   <main>
 
+    <!-- Hero -->
+    <div class="hero">
+      <div>
+        <h1>Nelvin Jaziel Marquez</h1>
+        <p>Software developer &amp; technical lead at JazieLabs. Building production-grade business platforms, multi-branch ERP/POS systems, and data pipelines.</p>
+      </div>
+      <div class="hero-avatar">NJ</div>
+    </div>
+
+    <!-- Sección de Proyectos Categorizados con redirecciones activas -->
+    <section id="work">
+      <div class="section-title">Trayectoria técnica y proyectos</div>
+
+      <!-- Grupo Backend & Sistemas -->
+      <div class="category-group">
+        <h3>Backend &amp; Sistemas B2B</h3>
+        <div class="compact-grid">
+
+          <article class="compact-card">
+            <div>
+              <div class="card-top">
+                <h4><a href="https://github.com/nelvinjazieldeveloper/PST-IV" target="_blank" rel="noopener">Industrial Quality System</a></h4>
+                <a href="https://github.com/nelvinjazieldeveloper/PST-IV" target="_blank" rel="noopener" class="link-tag">GitHub ↗</a>
+              </div>
+              <p>Plataforma centralizada para control de calidad en planta y seguimiento operativo.</p>
+            </div>
+            <div class="tech-badges">React · FastAPI · MySQL</div>
+          </article>
+
+          <article class="compact-card">
+            <div>
+              <div class="card-top">
+                <h4><a href="https://github.com/nelvinjazieldeveloper/apibcv" target="_blank" rel="noopener">Central Bank API</a></h4>
+                <a href="https://github.com/nelvinjazieldeveloper/apibcv" target="_blank" rel="noopener" class="link-tag">GitHub ↗</a>
+              </div>
+              <p>Wrapper REST para indicadores oficiales del Banco Central con endpoints JSON estructurados.</p>
+            </div>
+            <div class="tech-badges">Python · FastAPI · REST</div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Grupo Aplicaciones & Automatización -->
+      <div class="category-group">
+        <h3>Aplicaciones y Automatización</h3>
+        <div class="compact-grid">
+
+          <article class="compact-card">
+            <div>
+              <div class="card-top">
+                <h4><a href="https://github.com/nelvinjazieldeveloper/sales-management-manejo-de-ventas" target="_blank" rel="noopener">Retail POS &amp; Automation</a></h4>
+                <a href="https://github.com/nelvinjazieldeveloper/sales-management-manejo-de-ventas" target="_blank" rel="noopener" class="link-tag">GitHub ↗</a>
+              </div>
+              <p>Solución de escritorio para inventario, tasas de cambio en vivo por web scraping y facturación PDF.</p>
+            </div>
+            <div class="tech-badges">Python · Flet · SQLite</div>
+          </article>
+
+          <article class="compact-card">
+            <div>
+              <div class="card-top">
+                <h4><a href="https://github.com/nelvinjazieldeveloper/sector" target="_blank" rel="noopener">Organization Manager API</a></h4>
+                <a href="https://github.com/nelvinjazieldeveloper/sector" target="_blank" rel="noopener" class="link-tag">GitHub ↗</a>
+              </div>
+              <p>API backend versionada y panel de control para unificar registros y asistencia descentralizada.</p>
+            </div>
+            <div class="tech-badges">PHP · MySQL · Swagger</div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Grupo Librerías Open Source -->
+      <div class="category-group">
+        <h3>Librerías Open Source</h3>
+        <div class="compact-grid">
+
+          <article class="compact-card">
+            <div>
+              <div class="card-top">
+                <h4><a href="https://pypi.org/project/TxtToImg/" target="_blank" rel="noopener">TxtToImg Utility</a></h4>
+                <a href="https://pypi.org/project/TxtToImg/" target="_blank" rel="noopener" class="link-tag">PyPI ↗</a>
+              </div>
+              <p>Utilidad publicada en PyPI para procesamiento de texto sobre imágenes y generación de gradientes.</p>
+            </div>
+            <div class="tech-badges">Python · OpenCV · PyPI</div>
+          </article>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Sobre mí -->
     <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I'm a <strong>Full-Stack Developer</strong> with hands-on experience building web applications
-        end to end — from <strong>React</strong> and <strong>Next.js</strong> front ends to
-        <strong>PostgreSQL</strong>-backed services exposed through clean <strong>REST APIs</strong>.
-        I'm currently leading technical development at JazieLabs, where I build and maintain
-        production web solutions with a focus on scalability, clean code and user experience.
-      </p>
-      <p>
-        Beyond web development, I also have a strong Python background: I've built backend systems
-        with FastAPI, published a library on PyPI, and shipped several computer-vision and automation
-        projects from scratch — experience that gives me a broad, practical toolkit for solving problems
-        across the stack.
-      </p>
-
-      <h3>Technical Expertise</h3>
-      <div class="skills-grid">
-        <div class="skill-group">
-          <h4>Frontend</h4>
-          <ul>
-            <li>React.js</li>
-            <li>Next.js</li>
-            <li>Tailwind CSS</li>
-            <li>HTML / CSS / JavaScript</li>
-            <li>TypeScript</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h4>Backend &amp; Data</h4>
-          <ul>
-            <li>PHP</li>
-            <li>Python (FastAPI, Flask)</li>
-            <li>REST APIs</li>
-            <li>PostgreSQL / SQL</li>
-            <li>SQLite</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h4>Practices &amp; Tools</h4>
-          <ul>
-            <li>Clean Code</li>
-            <li>Git / GitHub</li>
-            <li>Cloud Deployment</li>
-            <li>Web Scraping &amp; Automation</li>
-          </ul>
-        </div>
-      </div>
-
-      <h3>Highlights</h3>
-      <ul class="highlights">
-        <li>Leading technical direction on custom web solutions at JazieLabs</li>
-        <li>Creator of <a href="https://pypi.org/project/TxtToImg/" target="_blank" rel="noopener">TxtToImg</a>, a Python library published on PyPI for programmatic text-to-image generation</li>
-        <li>Built and shipped multiple full projects independently, from database design to deployment</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>My Projects</h2>
-      <p class="section-intro"><a href="https://github.com/nelvinjazieldeveloper" target="_blank" rel="noopener">View all on GitHub →</a></p>
-
-      <div class="projects-grid">
-
-        <article class="project-card">
-          <h3>Venvidrio Hot-Zone Production System</h3>
-          <p>Production-monitoring platform for a glass-bottle plant: real-time output tracking, quality inspections with criticality levels, machine-downtime logging and role-based access for operators, inspectors and admins. Three-tier React SPA → FastAPI REST API → MySQL, with schema auto-provisioning on first run.</p>
-          <div class="tags">
-            <span>React</span><span>Vite</span><span>FastAPI</span><span>Pydantic</span><span>MySQL</span>
-          </div>
-          <a href="https://github.com/nelvinjazieldeveloper/PST-IV" target="_blank" rel="noopener">View on GitHub →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Sales Management System</h3>
-          <p>Full-featured sales management tool with automated price updates via web scraping, PDF invoice generation, and SQLite database integration.</p>
-          <div class="tags">
-            <span>Python</span><span>Flet</span><span>SQLite</span><span>BeautifulSoup</span>
-          </div>
-          <a href="https://github.com/nelvinjazieldeveloper/sales-management-manejo-de-ventas" target="_blank" rel="noopener">View on GitHub →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>AI-Powered CV Generator</h3>
-          <p>Generates professional Europass-format CVs using AI (Gemini), with a FastAPI backend, Streamlit frontend, automated PDF export and Pydantic data validation.</p>
-          <div class="tags">
-            <span>Python</span><span>FastAPI</span><span>Streamlit</span><span>Gemini AI</span>
-          </div>
-          <a href="https://github.com/nelvinjazieldeveloper/ai_cv_creator" target="_blank" rel="noopener">View on GitHub →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>BCV Exchange-Rate API</h3>
-          <p>REST API that scrapes the Venezuelan Central Bank site with BeautifulSoup and serves live currency rates: list all rates, query by symbol, and a POST endpoint that converts an arbitrary amount. Built with FastAPI and automatic OpenAPI docs.</p>
-          <div class="tags">
-            <span>Python</span><span>FastAPI</span><span>BeautifulSoup</span><span>Web Scraping</span>
-          </div>
-          <a href="https://github.com/nelvinjazieldeveloper/apibcv" target="_blank" rel="noopener">View on GitHub →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Sector — Organization Management</h3>
-          <p>Full-stack management system for a multi-branch organization: member and staff records, attendance tracking, meeting coordination, user administration and report generation. PHP REST API documented with Swagger/OpenAPI, backed by MySQL with versioned migrations.</p>
-          <div class="tags">
-            <span>PHP</span><span>MySQL</span><span>REST APIs</span><span>Swagger</span>
-          </div>
-          <a href="https://github.com/nelvinjazieldeveloper/sector" target="_blank" rel="noopener">View on GitHub →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>TxtToImg — Published Python Library</h3>
-          <p>Open-source library (MIT, published on PyPI) for programmatic text-to-image generation: overlay styled text on a remote image or a generated gradient background, with configurable colour, scale and positioning, then display or export the result.</p>
-          <div class="tags">
-            <span>Python</span><span>OpenCV</span><span>Requests</span><span>PyPI</span>
-          </div>
-          <a href="https://pypi.org/project/TxtToImg/" target="_blank" rel="noopener">View on PyPI →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>PC Control with Facial Recognition</h3>
-          <p>Hands-free computer control using facial gestures and voice commands, with 95% accuracy across varied lighting conditions.</p>
-          <div class="tags">
-            <span>Python</span><span>OpenCV</span><span>MediaPipe</span><span>PyAutoGUI</span>
-          </div>
-          <a href="https://github.com/nelvinjazieldeveloper/control" target="_blank" rel="noopener">View on GitHub →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Face-Controlled Rocket Game</h3>
-          <p>Real-time face-tracking gameplay optimized for 60 FPS performance, with dynamic difficulty adjustment.</p>
-          <div class="tags">
-            <span>Python</span><span>Pygame</span><span>OpenCV</span>
-          </div>
-          <a href="https://github.com/nelvinjazieldeveloper/Rocket-Game-Juego-Cohete" target="_blank" rel="noopener">View on GitHub →</a>
-        </article>
-
+      <div class="section-title">Sobre mí</div>
+      <div class="contact-box">
+        <p style="color: var(--text-muted); font-size: 0.9rem;">
+          Operando a través de <strong>JazieLabs</strong>, me enfoco en solucionar fricciones operativas reales mediante arquitectura de software robusta, bases de datos optimizadas y entregas directas para contratos B2B.
+        </p>
       </div>
     </section>
 
+    <!-- Contacto con redirecciones de enlaces externos -->
     <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Open to remote, full-time and freelance opportunities.</p>
-      <ul class="contact-list">
-        <li>Email: <a href="mailto:njmarquezm@gmail.com">njmarquezm@gmail.com</a></li>
-        <li>GitHub: <a href="https://github.com/nelvinjazieldeveloper" target="_blank" rel="noopener">nelvinjazieldeveloper</a></li>
-        <li>Torre: <a href="https://torre.ai/nelvinmarquez" target="_blank" rel="noopener">torre.ai/nelvinmarquez</a></li>
-      </ul>
+      <div class="section-title">Contacto</div>
+      <div class="contact-box">
+        <ul class="contact-links">
+          <li><a href="mailto:njmarquezm@gmail.com">Email ↗</a></li>
+          <li><a href="https://github.com/nelvinjazieldeveloper" target="_blank" rel="noopener">GitHub ↗</a></li>
+          <li><a href="https://torre.ai/nelvinmarquez" target="_blank" rel="noopener">Torre ↗</a></li>
+        </ul>
+      </div>
     </section>
 
   </main>
 
   <footer>
-    <p>&copy; 2026 JazieLabs — Nelvin Jaziel Marquez, Full-Stack Developer.</p>
+    <p>&copy; 2026 JazieLabs — Nelvin Jaziel Marquez</p>
   </footer>
 
 </body>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JazieLabs | Nelvin Jaziel Marquez — Desarrollador Full-Stack</title>
+<meta name="description" content="JazieLabs — el estudio detrás de Nelvin Jaziel Marquez, Desarrollador Full-Stack especializado en React, Next.js, PostgreSQL y APIs REST, con experiencia en Python, automatización y visión por computadora.">
+<link rel="canonical" href="https://jazielabs.online/es/">
+<link rel="alternate" hreflang="en" href="https://jazielabs.online/">
+<link rel="alternate" hreflang="es" href="https://jazielabs.online/es/">
+<meta name="theme-color" content="#0d1117">
+<meta property="og:title" content="Nelvin Jaziel Marquez — Desarrollador Full-Stack">
+<meta property="og:description" content="Desarrollador Full-Stack especializado en React, Next.js, PostgreSQL y APIs REST.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jazielabs.online/es/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <span class="brand">JazieLabs</span>
+    <nav>
+      <a href="#about">Sobre mí</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#contact">Contacto</a>
+      <a href="../" class="lang-switch">EN</a>
+    </nav>
+  </div>
+
+  <header class="hero">
+    <h1>Nelvin Jaziel Marquez</h1>
+    <p class="subtitle">Desarrollador Full-Stack | React, Next.js y PostgreSQL</p>
+    <p class="brand-note">Trabajando bajo el nombre <strong>JazieLabs</strong></p>
+    <span class="pill">Disponible para trabajo remoto y freelance</span>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy <strong>Desarrollador Full-Stack</strong> con experiencia práctica construyendo aplicaciones web
+        de principio a fin — desde interfaces con <strong>React</strong> y <strong>Next.js</strong> hasta
+        servicios respaldados por <strong>PostgreSQL</strong> expuestos mediante <strong>APIs REST</strong> limpias.
+        Actualmente lidero el desarrollo técnico en JazieLabs, donde construyo y mantengo soluciones web
+        en producción con enfoque en escalabilidad, código limpio y experiencia de usuario.
+      </p>
+      <p>
+        Más allá del desarrollo web, también tengo una sólida base en Python: he construido sistemas backend
+        con FastAPI, publicado una biblioteca en PyPI, y desarrollado desde cero varios proyectos de
+        visión por computadora y automatización — experiencia que me da un conjunto de herramientas amplio
+        y práctico para resolver problemas en toda la pila.
+      </p>
+
+      <h3>Experiencia técnica</h3>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Frontend</h4>
+          <ul>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>Tailwind CSS</li>
+            <li>HTML / CSS / JavaScript</li>
+            <li>TypeScript</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Backend y datos</h4>
+          <ul>
+            <li>PHP</li>
+            <li>Python (FastAPI, Flask)</li>
+            <li>APIs REST</li>
+            <li>PostgreSQL / SQL</li>
+            <li>SQLite</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Prácticas y herramientas</h4>
+          <ul>
+            <li>Código limpio</li>
+            <li>Git / GitHub</li>
+            <li>Despliegue en la nube</li>
+            <li>Web scraping y automatización</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Destacados</h3>
+      <ul class="highlights">
+        <li>Liderando la dirección técnica de soluciones web a medida en JazieLabs</li>
+        <li>Creador de <a href="https://pypi.org/project/TxtToImg/" target="_blank" rel="noopener">TxtToImg</a>, una biblioteca de Python publicada en PyPI para generación programática de imágenes a partir de texto</li>
+        <li>He construido y publicado múltiples proyectos completos de forma independiente, desde el diseño de la base de datos hasta el despliegue</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Mis proyectos</h2>
+      <p class="section-intro"><a href="https://github.com/nelvinjazieldeveloper" target="_blank" rel="noopener">Ver todo en GitHub →</a></p>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <h3>Sistema de producción de zona caliente — Venvidrio</h3>
+          <p class="card-lead">Una planta de botellas de vidrio registraba en papel sus controles de calidad de zona caliente, conteos de producción y paradas de máquina, sin trazabilidad. Construí una aplicación web de tres capas para reemplazar ese proceso.</p>
+          <p class="card-outcome"><strong>Resultado:</strong> producción, inspecciones (con niveles de criticidad), paradas y acciones correctivas ahora funcionan en una sola herramienta con control de acceso por rol; el backend en FastAPI crea y carga su propio esquema MySQL en el primer arranque.</p>
+          <div class="tags">
+            <span>React</span><span>Vite</span><span>FastAPI</span><span>Pydantic</span><span>MySQL</span>
+          </div>
+          <a href="https://github.com/nelvinjazieldeveloper/PST-IV" target="_blank" rel="noopener">Ver en GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Sistema de gestión de ventas</h3>
+          <p class="card-lead">Un comercio pequeño hacía ventas, actualizaba precios contra un tipo de cambio volátil y emitía facturas a mano. Construí una app de escritorio para hacerlo todo en un solo lugar.</p>
+          <p class="card-outcome"><strong>Resultado:</strong> ventas e inventario sobre SQLite, precios actualizados automáticamente por web scraping y facturas en PDF con un clic.</p>
+          <div class="tags">
+            <span>Python</span><span>Flet</span><span>SQLite</span><span>BeautifulSoup</span>
+          </div>
+          <a href="https://github.com/nelvinjazieldeveloper/sales-management-manejo-de-ventas" target="_blank" rel="noopener">Ver en GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Generador de CV con IA</h3>
+          <p class="card-lead">Redactar un CV Europass bien estructurado es lento y repetitivo. Construí un servicio que convierte un formulario corto en un documento terminado.</p>
+          <p class="card-outcome"><strong>Resultado:</strong> una app FastAPI + Streamlit que redacta el CV con Gemini, lo valida con Pydantic y exporta un PDF Europass con formato en una sola pasada.</p>
+          <div class="tags">
+            <span>Python</span><span>FastAPI</span><span>Streamlit</span><span>Gemini AI</span>
+          </div>
+          <a href="https://github.com/nelvinjazieldeveloper/ai_cv_creator" target="_blank" rel="noopener">Ver en GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>API de tasas de cambio del BCV</h3>
+          <p class="card-lead">No hay una fuente programática limpia para las tasas oficiales del Banco Central de Venezuela. Envolví el sitio público en una API REST propia.</p>
+          <p class="card-outcome"><strong>Resultado:</strong> un servicio FastAPI con documentación OpenAPI automática y tres endpoints — listar todas las tasas, consultar una por símbolo y convertir un monto arbitrario.</p>
+          <div class="tags">
+            <span>Python</span><span>FastAPI</span><span>BeautifulSoup</span><span>Web Scraping</span>
+          </div>
+          <a href="https://github.com/nelvinjazieldeveloper/apibcv" target="_blank" rel="noopener">Ver en GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Sector — Gestión de organización</h3>
+          <p class="card-lead">Una organización con varias sedes llevaba miembros, asistencia, reuniones y reportes en hojas de cálculo dispersas. Construí un sistema central con una API documentada.</p>
+          <p class="card-outcome"><strong>Resultado:</strong> una API REST en PHP sobre MySQL (migraciones versionadas, documentación Swagger/OpenAPI) que cubre registros de miembros y personal, asistencia, coordinación de reuniones, administración de usuarios y generación de reportes.</p>
+          <div class="tags">
+            <span>PHP</span><span>MySQL</span><span>APIs REST</span><span>Swagger</span>
+          </div>
+          <a href="https://github.com/nelvinjazieldeveloper/sector" target="_blank" rel="noopener">Ver en GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>TxtToImg — Biblioteca de Python publicada</h3>
+          <p class="card-lead">Superponer texto con estilo sobre imágenes por código implicaba reescribir el mismo boilerplate de OpenCV cada vez. Lo empaqueté como una biblioteca reutilizable.</p>
+          <p class="card-outcome"><strong>Resultado:</strong> publicada en PyPI (MIT) — <code>pip install TxtToImg</code> — con texto sobre una imagen remota o un degradado generado y color, escala y posición configurables.</p>
+          <div class="tags">
+            <span>Python</span><span>OpenCV</span><span>Requests</span><span>PyPI</span>
+          </div>
+          <a href="https://pypi.org/project/TxtToImg/" target="_blank" rel="noopener">Ver en PyPI →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Control de PC con reconocimiento facial</h3>
+          <p class="card-lead">Una prueba de concepto de uso del computador sin manos: mover el ratón y el teclado con el movimiento de la cabeza y la voz en lugar del tacto.</p>
+          <p class="card-outcome"><strong>Resultado:</strong> face-mesh de MediaPipe más comandos de voz asignados a acciones de entrada, manteniendo ~95% de precisión de gestos en diversas condiciones de iluminación.</p>
+          <div class="tags">
+            <span>Python</span><span>OpenCV</span><span>MediaPipe</span><span>PyAutoGUI</span>
+          </div>
+          <a href="https://github.com/nelvinjazieldeveloper/control" target="_blank" rel="noopener">Ver en GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Juego de cohete controlado por rostro</h3>
+          <p class="card-lead">Una demo jugable de visión por computadora en tiempo real: controlar un juego con la cara, rastreada en vivo desde la webcam.</p>
+          <p class="card-outcome"><strong>Resultado:</strong> un juego en Pygame con movimiento controlado por la cabeza y dificultad dinámica, corriendo con fluidez a ~60 FPS.</p>
+          <div class="tags">
+            <span>Python</span><span>Pygame</span><span>OpenCV</span>
+          </div>
+          <a href="https://github.com/nelvinjazieldeveloper/Rocket-Game-Juego-Cohete" target="_blank" rel="noopener">Ver en GitHub →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Abierto a oportunidades remotas, a tiempo completo y freelance.</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:njmarquezm@gmail.com">njmarquezm@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/nelvinjazieldeveloper" target="_blank" rel="noopener">nelvinjazieldeveloper</a></li>
+        <li>Torre: <a href="https://torre.ai/nelvinmarquez" target="_blank" rel="noopener">torre.ai/nelvinmarquez</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 JazieLabs — Nelvin Jaziel Marquez, Desarrollador Full-Stack.</p>
+  </footer>
+
+</body>
+</html>
